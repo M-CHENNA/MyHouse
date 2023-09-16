@@ -1,82 +1,71 @@
 /* HIDE RADIO BUTTON */
 
-.rate > input{
+.rate > input {
   display: none;
 }
 
-.rate{
+.rate {
   display: inline-block;
   border: 0;
 }
 
-.rate > label{
+.rate > label {
   float: right;
 }
 
 /* Showing the starts */
-.rate > label:before{
-
+.rate > label:before {
   display: inline-block;
   font-size: 1.1rem;
   font-family: FontAwesome;
   content: "\f005";
-  margin:0;
-  padding: 0.3rem .2rem;
+  margin: 0;
+  padding: 0.3rem 0.2rem;
   cursor: pointer;
 }
 
 /* Half Star */
-.rate .half:before{
+.rate .half:before {
   content: "\f089";
   position: absolute;
   padding-right: 0;
 }
 
-input:checked ~ label,label:hover ~ label{
+input:checked ~ label,
+label:hover ~ label {
   color: #ffb503;
 }
 
 /*  hover highlight */
 
-input:checked + label:hover, input:checked ~ label:hover, input:checked ~ label:hover ~ label,
-label:hover ~ input:checked ~ label{
-    color: #cc9000;
+input:checked + label:hover,
+input:checked ~ label:hover,
+input:checked ~ label:hover ~ label,
+label:hover ~ input:checked ~ label {
+  color: #cc9000;
 }
-.rating-star i{
-  color:#ffb503 !important;
+.rating-star i {
+  color: #ffb503 !important;
 }
 
-
-
-
-
-
-ul.thumb{
+ul.thumb {
   margin: 0 auto;
   padding: 0;
   float: left;
 }
-ul.thumb li{
+ul.thumb li {
   list-style: none;
   margin: 10px;
 }
-ul.thumb li img{
-  width:80px;
+ul.thumb li img {
+  width: 80px;
   height: 80px;
   border: 1px solid #ccc;
 }
 
-#ahover:hover{
-  color: #C57B57 !important;
+#ahover:hover {
+  color: #c57b57 !important;
 }
-
-
-
-
-
-
-
-
 
 
 /* SLIDER */

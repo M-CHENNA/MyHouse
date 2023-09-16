@@ -10,19 +10,7 @@
       <img class="logo" src="{% static './images/ae.png' %}">
     </a> <!-- brand-wrap.// -->
   </div>
-  <!-- <div class="col-lg col-sm col-md col-6 flex-grow-0">
-     <div class="category-wrap dropdown d-inline-block float-right">
-      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-        <i class="fa fa-bars"></i> All categories
-      </button>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="{% url 'store' %}"> All Products </a>
-        {% for category in links %}
-        <a class="dropdown-item" href="{{category.get_url}}">{{ category.category_name}} </a>
-        {% endfor %}
-      </div>
-    </div>
-  </div> -->
+
   <div class="col-lg col-sm col-md col-6 flex-grow-0">
   <a href="{% url 'store' %}" class="btn btn-primary" style="width:180px">Our Products</a>
   </div>

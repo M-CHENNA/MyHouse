@@ -1,0 +1,5 @@
+-- database: c:\Users\Manel CHENNA\Desktop\InteriorsSymphony1\db.sqlite3
+
+-- Appuyez sur le bouton ▷ dans le coin supérieur droit de la fenêtre pour exécuter l'ensemble du fichier.
+
+SELECT * FROM "accounts_account";

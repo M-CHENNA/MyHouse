@@ -2943,7 +2943,7 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(49, 103, 235, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(223, 138, 58, 0.952);
 }
 
 .btn-outline-secondary {
@@ -4963,7 +4963,7 @@ input[type="button"].btn-block {
 }
 .page-link:hover {
   z-index: 2;
-  color: #1244bd;
+  color: #f1ab86;
   text-decoration: none;
   background-color: #e4e4e4;
   border-color: #dee2e6;
@@ -4971,7 +4971,7 @@ input[type="button"].btn-block {
 .page-link:focus {
   z-index: 2;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(49, 103, 235, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(150, 150, 150, 0.2);
 }
 
 .page-item:first-child .page-link {
@@ -4990,7 +4990,7 @@ input[type="button"].btn-block {
   border-color: #f1ab86;
 }
 .page-item.disabled .page-link {
-  color: #c57b57;
+  color: #a5a5a5;
   pointer-events: none;
   cursor: auto;
   background-color: #fff;
